@@ -652,7 +652,7 @@ export default function DashboardPage() {
           size={{ height: 8 }}
         />
         {report && (
-          <p className="text-muted text-xs mt-3 flex items-center gap-1.5">
+          <p className="text-muted text-xs mt-3 flex items-center gap-1.5 text-[#303133]">
             <span className="w-1.5 h-1.5 rounded-full bg-muted" />
             下方显示的是上次诊断结果，新结果将在完成后自动更新
           </p>
